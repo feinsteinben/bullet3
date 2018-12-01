@@ -44,7 +44,7 @@ struct URDFLinkContactInfo
 	int m_flags;
 
 	URDFLinkContactInfo()
-		: m_lateralFriction(0.5),
+		: m_lateralFriction(0.8),
 		  m_rollingFriction(0),
 		  m_spinningFriction(0),
 		  m_restitution(0),
